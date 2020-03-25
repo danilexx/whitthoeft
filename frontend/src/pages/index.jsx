@@ -22,7 +22,7 @@ const Home = ({ products }) => {
   // }, []);
   return (
     <div>
-      <Title title="Wittoeft" />
+      <Title title="Witthoeft" />
       <Slider />
       <Badges />
       <Header label="Lançamentos" />
