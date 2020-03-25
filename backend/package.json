@@ -41,7 +41,7 @@
   },
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "build": "sucrase ./src -d ./dist --transforms imports,typescript",
-    "start": "ts-node dist/index"
+    "build": "tsc",
+    "start": "ts-node ./dist/index"
   }
 }
