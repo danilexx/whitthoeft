@@ -22,9 +22,9 @@
     "nodemon": "^2.0.2",
     "prettier": "^2.0.1",
     "sucrase": "^3.12.1",
-    "typescript": "^3.8.3"
   },
   "dependencies": {
+    "typescript": "^3.8.3",
     "@types/bcryptjs": "^2.4.2",
     "@types/chance": "^1.0.9",
     "bcryptjs": "^2.4.3",
@@ -42,6 +42,6 @@
   "scripts": {
     "dev": "nodemon src/index.ts",
     "build": "tsc",
-    "start": "ts-node dist/index.js"
+    "start": "ts-node dist/index"
   }
 }
