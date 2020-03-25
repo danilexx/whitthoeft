@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 const https = require("https");
 
 // const prod = process.env.NODE_ENV === "production";
-const baseURL = process.env.NEXT_PUBLIC_SERVER_URL;
+const baseURL = "https://whitthoeft.herokuapp.com";
 // "http://localhost:3333/";
 // ? "https://stormycommerce.com/api/"
 // : "https://155.138.211.217/api/";
