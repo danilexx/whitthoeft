@@ -4,7 +4,6 @@ import Cookies from "js-cookie";
 const https = require("https");
 
 // const prod = process.env.NODE_ENV === "production";
-console.log(process.env.NEXT_PUBLIC_SERVER_URL, process.env);
 const baseURL = process.env.NEXT_PUBLIC_SERVER_URL;
 // "http://localhost:3333/";
 // ? "https://stormycommerce.com/api/"

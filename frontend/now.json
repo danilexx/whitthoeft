@@ -1,7 +1,5 @@
 {
-  "build": {
-    "env": {
-      "NEXT_PUBLIC_SERVER_URL": "next_public_server_url"
-    }
+  "env": {
+    "NEXT_PUBLIC_SERVER_URL": "https://whitthoeft.herokuapp.com"
   }
 }
