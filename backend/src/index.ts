@@ -3,7 +3,7 @@ import server from "./app";
 
 createConnection()
   .then(() => {
-    server.listen(3333, () => {
+    server.listen(process.env.PORT || 3333, () => {
       console.log("starting on 3333");
     });
   })
