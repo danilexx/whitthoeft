@@ -19,10 +19,10 @@ export class Product extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column()
+  @Column("varchar")
   name: string;
 
-  @Column()
+  @Column("varchar")
   description: string;
 
   @Column("double precision")
