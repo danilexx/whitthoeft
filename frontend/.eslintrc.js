@@ -37,7 +37,9 @@ module.exports = {
     "react/prop-types": "off",
     "import/extensions": "off",
     "no-restricted-globals": "off",
-    "consistent-return": "off"
+    "consistent-return": "off",
+    "react/jsx-indent-props": "off",
+    "react/jsx-indent": "off"
   },
   "settings": {
     "import/resolver":"babel-plugin-root-import",

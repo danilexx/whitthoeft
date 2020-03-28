@@ -14,17 +14,13 @@
       {
         "paths": [
           {
-            "rootPathSuffix": "./",
+            "rootPathSuffix": "./src",
             "rootPathPrefix": "-/"
           },
           {
-            "rootPathSuffix": "components",
+            "rootPathSuffix": "./src/components",
             "rootPathPrefix": "!/"
           },
-          {
-            "rootPathSuffix": "utils",
-            "rootPathPrefix": "=/"
-          }
         ]
       }
     ],

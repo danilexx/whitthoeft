@@ -6,6 +6,20 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     min-height: 100%;
   }
+  html{
+    font-size: 62.5%;
+  }
+  @media (max-width: 1080) {
+    html {
+      font-size: 58%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    html{
+      font-size: 50%;
+    }
+  }
   *{
     box-sizing:border-box;
     padding: 0;

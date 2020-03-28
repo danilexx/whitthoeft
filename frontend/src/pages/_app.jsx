@@ -8,12 +8,12 @@ import { ThemeProvider } from "styled-components";
 import { PersistGate } from "redux-persist/integration/react";
 import { withCookies } from "react-cookie";
 import LoadingScreen from "!/LoadingScreen";
-import createStore from "-/src/redux/store";
-import defaultTheme from "-/src/theme";
-import GlobalStyle from "-/src/theme/GlobalStyle";
+import createStore from "-/redux/store";
+import defaultTheme from "-/theme";
+import GlobalStyle from "-/theme/GlobalStyle";
 import Nav from "!/Nav";
 import Footer from "!/Footer";
-import actions from "-/src/redux/actions";
+import actions from "-/redux/actions";
 import "../theme/blank.css";
 import "react-credit-cards/es/styles-compiled.css";
 

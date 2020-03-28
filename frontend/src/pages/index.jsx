@@ -5,7 +5,7 @@ import Badges from "!/Badges";
 import Header from "!/Header";
 import Slider from "!/Slider";
 import OfertRegister from "!/OfertRegister";
-import { getHomePageProducts } from "-/src/services";
+import { getHomePageProducts } from "-/services";
 import Title from "-/components/Title";
 
 const Home = ({ products }) => {

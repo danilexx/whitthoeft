@@ -1,6 +1,6 @@
 import LoginPage from "!/LoginPage";
 import Title from "!/Title";
-import ssrSecretRoute from "-/src/utils/ssrSecretRoute";
+import ssrSecretRoute from "-/utils/ssrSecretRoute";
 
 const Login = () => {
   return (

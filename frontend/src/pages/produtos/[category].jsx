@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Filters from "!/Filters";
 import Title from "!/Title";
 import PagedProducts from "!/PagedProducts";
-import { api, getProducts } from "-/src/services";
+import { getProducts } from "-/services";
 
 const Container = styled.div`
   display: flex;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import ProductInfo from "!/ProductInfo";
-import { getProduct, getProducts } from "-/src/services";
+import { getProduct, getProducts } from "-/services";
 import Title from "!/Title";
 
 const Container = styled.div`

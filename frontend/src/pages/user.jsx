@@ -1,7 +1,7 @@
 import cookies from "next-cookies";
 import UserPage from "!/UserPage";
-import { fetchUserData } from "-/src/services";
-import ssrSecretRoute from "-/src/utils/ssrSecretRoute";
+import { fetchUserData } from "-/services";
+import ssrSecretRoute from "-/utils/ssrSecretRoute";
 import Title from "!/Title";
 
 const User = ({ userInfo }) => {

@@ -3,7 +3,7 @@ import es6promise from "es6-promise";
 
 import actionTypes from "./actionTypes";
 import actions from "./actions";
-import { api, getFavorites, addFavorite, removeFavorite } from "-/src/services";
+import { getFavorites, addFavorite, removeFavorite } from "-/services";
 
 es6promise.polyfill();
 

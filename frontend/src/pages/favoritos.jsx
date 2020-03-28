@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import { useSelector, shallowEqual } from "react-redux";
-import Cookies from "js-cookie";
 import Header from "!/Header";
 import Products from "!/Products";
 import Title from "!/Title";
-import { getFavorites, fetchUserData } from "-/src/services";
+import { getFavorites } from "-/services";
 import Message from "!/Message";
 import Loader from "!/Loader";
 
@@ -35,7 +34,9 @@ const Favorites = () => {
         const { data: items } = response;
         setProducts(items);
         setIsLoading(false);
-      } catch (error) {}
+      } catch (error) {
+        console.error(error);
+      }
     }
     fetchFavorites();
   }, [favorites]);
