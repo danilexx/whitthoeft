@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Section } from "../styles";
-import PaymentForm from "-/components/UserPage/subcomponents/PaymentForm";
-import LinkedButton from "-/components/LinkedButton";
-import Header from "-/components/Header";
+import PaymentForm from "!/UserPage/subcomponents/PaymentForm";
+import LinkedButton from "!/LinkedButton";
+import Header from "!/Header";
 
 const PaymentsSection = ({ onChange, initialPayment = null }) => {
   const [payment, setPayment] = useState(initialPayment);

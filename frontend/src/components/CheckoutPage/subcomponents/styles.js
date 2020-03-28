@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Select from "-/components/Select";
+import Select from "!/Select";
 
 export const TableFooter = styled.div`
   display: flex;

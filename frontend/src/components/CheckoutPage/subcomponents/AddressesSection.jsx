@@ -1,7 +1,7 @@
 import { Section } from "../styles";
-import Header from "-/components/Header";
-import LinkedButton from "-/components/LinkedButton";
-import AddressForm from "-/components/UserPage/subcomponents/AddressForm";
+import Header from "!/Header";
+import LinkedButton from "!/LinkedButton";
+import AddressForm from "!/UserPage/subcomponents/AddressForm";
 
 const AddressesSection = ({ onChange, initialAddress }) => {
   const [address, setAddress] = React.useState(initialAddress);

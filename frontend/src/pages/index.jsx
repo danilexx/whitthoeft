@@ -6,7 +6,7 @@ import Header from "!/Header";
 import Slider from "!/Slider";
 import OfertRegister from "!/OfertRegister";
 import { getHomePageProducts } from "-/services";
-import Title from "-/components/Title";
+import Title from "!/Title";
 
 const Home = ({ products }) => {
   // const [products, setProducts] = React.useState(initialProducts || []);

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { DeleteButton } from "!/publicStyles";
-import Button from "-/components/Button";
+import Button from "!/Button";
 import { TableContainer } from "../styles";
-import Field from "-/components/Field";
+import Field from "!/Field";
 
 export const Container = styled.div`
   width: 100%;
@@ -160,7 +160,8 @@ export const NumberInput = styled.input.attrs({
   background-color: transparent;
   font-family: Roboto;
   color: ${props => props.theme.black};
-  &::-webkit-inner-spin-button, &::-webkit-outer-spin-button{
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }

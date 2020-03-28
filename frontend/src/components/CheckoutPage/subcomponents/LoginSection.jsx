@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { Section } from "../styles";
-import LoginForm from "-/components/LoginPage";
-import LinkedButton from "-/components/LinkedButton";
+import LoginForm from "!/LoginPage";
+import LinkedButton from "!/LinkedButton";
 
 const LoginSection = () => {
   const router = useRouter();

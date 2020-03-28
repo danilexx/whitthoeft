@@ -97,9 +97,6 @@ const LoginForm = ({ onLogin, customRegisterButton, noPadding = false }) => {
             const decodedToken = jwtDecode(token);
             const userEmail = decodedToken.email;
             dispatch(actions.user.login(token));
-
-            // const { data } = await fetchUserData(token);
-            console.log(decodedToken);
             if (!decodedToken.role === "Guest") {
               setPopupState(rest => ({
                 ...rest,

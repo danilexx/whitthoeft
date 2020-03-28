@@ -39,6 +39,7 @@ module.exports = {
     "no-restricted-globals": "off",
     "consistent-return": "off",
     "react/jsx-indent-props": "off",
+    "react/jsx-wrap-multilines": "off",
     "react/jsx-indent": "off"
   },
   "settings": {

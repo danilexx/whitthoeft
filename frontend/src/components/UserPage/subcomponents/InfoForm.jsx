@@ -4,7 +4,7 @@ import masks from "-/utils/masks";
 import { StyledForm, RegisterButton } from "!/publicStyles";
 import FormField, { MaskedFormField } from "!/FormField";
 import arrayToObject from "-/utils/arrayToObject";
-import DateField from "-/components/DateField";
+import DateField from "!/DateField";
 import { editUser } from "-/services";
 import isOverEighteen from "-/utils/isOverEighteen";
 

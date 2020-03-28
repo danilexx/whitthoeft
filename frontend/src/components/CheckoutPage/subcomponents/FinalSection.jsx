@@ -13,11 +13,8 @@ import {
   Price,
   Container,
   TableElement,
-} from "-/components/CartPage/subcomponents/styles";
-import {
-  PaymentCard,
-  StyledCard,
-} from "-/components/UserPage/subcomponents/styles";
+} from "!/CartPage/subcomponents/styles";
+import { PaymentCard, StyledCard } from "!/UserPage/subcomponents/styles";
 import {
   Column,
   AddressRow,
@@ -27,15 +24,15 @@ import {
   TableFooter,
 } from "./styles";
 import later from "-/utils/later";
-import { VesgoContainer } from "-/components/CartPage/styles";
-import LinkedButton from "-/components/LinkedButton";
-import Button from "-/components/Button";
-import Popup from "-/components/Popup";
+import { VesgoContainer } from "!/CartPage/styles";
+import LinkedButton from "!/LinkedButton";
+import Button from "!/Button";
+import Popup from "!/Popup";
 import {
   ReminderContainer,
   ReminderLabel,
   RegisterButton,
-} from "-/components/publicStyles";
+} from "!/publicStyles";
 import getRandomNumberBetween from "-/utils/getRandomNumberBetween";
 import actions from "-/redux/actions";
 

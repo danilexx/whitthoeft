@@ -3,8 +3,8 @@ import * as Yup from "yup";
 import valid from "card-validator";
 import { useState } from "react";
 import { useList } from "react-use";
-import { RegisterButton } from "-/components/publicStyles";
-import FormField, { MaskedFormField } from "-/components/FormField";
+import { RegisterButton } from "!/publicStyles";
+import FormField, { MaskedFormField } from "!/FormField";
 import masks from "-/utils/masks";
 import {
   StyledCard,
@@ -16,7 +16,7 @@ import {
   CheckButton,
 } from "./styles";
 import { ButtonsContainer } from "../styles";
-import Button from "-/components/Button";
+import Button from "!/Button";
 import { getCreditCards, addCreditCard, deleteCreditCard } from "-/services";
 
 const acceptedCards = ["mastercard", "visa", "hipercard"];

@@ -1,6 +1,6 @@
 import { useSelector, shallowEqual } from "react-redux";
 import { Section } from "../styles";
-import LinkedButton from "-/components/LinkedButton";
+import LinkedButton from "!/LinkedButton";
 import {
   Container,
   TableHeader,
@@ -13,15 +13,8 @@ import {
   Quantity,
   Row,
 } from "!/CartPage/subcomponents/styles";
-import {
-  TableFooter,
-  SubPrice,
-  Separator,
-  TotalPrice,
-  LongSelect,
-  CenterContainer,
-} from "./styles";
-import { VesgoContainer } from "-/components/CartPage/styles";
+import { TableFooter, SubPrice, Separator, TotalPrice } from "./styles";
+import { VesgoContainer } from "!/CartPage/styles";
 
 const SIZES = {
   PRODUCT_SIZE: 75,

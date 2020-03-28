@@ -1,6 +1,6 @@
 import { createContext, useContext } from "react";
 import { Container, ScreenContainer } from "./styles";
-import useLocalStorage from "-/src/utils/useLocalStorage";
+import useLocalStorage from "-/utils/useLocalStorage";
 
 const ScreensContext = createContext(null);
 const { Provider } = ScreensContext;

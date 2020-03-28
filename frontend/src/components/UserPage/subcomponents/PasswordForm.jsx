@@ -2,7 +2,7 @@ import { Formik } from "formik";
 import * as Yup from "yup";
 import { StyledForm, RegisterButton } from "!/publicStyles";
 import FormField from "!/FormField";
-import { editUser } from "-/src/services";
+import { editUser } from "-/services";
 
 function equalTo(ref, msg) {
   return Yup.mixed().test({

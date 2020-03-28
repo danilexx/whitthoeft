@@ -10,7 +10,7 @@ import { Filter, CheckboxesContainer } from "./subcomponents";
 import ColorSelector from "!/ColorSelector";
 import SizeSelector from "!/SizeSelector";
 import Checkbox from "!/Checkbox";
-import { sampleColorSelectorList, sampleSizeSelectorList } from "-/src/samples";
+import { sampleColorSelectorList, sampleSizeSelectorList } from "-/samples";
 
 const checkBoxList = [
   {

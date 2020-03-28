@@ -7,7 +7,7 @@ import {
 } from "./styles";
 // import Header from "!/Header";
 import { StarRater, Comment } from "./subcomponents";
-import { commentsSample } from "-/src/samples";
+import { commentsSample } from "-/samples";
 import Button from "../Button";
 
 const Comentaries = () => (
